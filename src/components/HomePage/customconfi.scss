@@ -1,0 +1,361 @@
+.configurator a:hover {
+  text-decoration: none;
+}
+
+.configurator .container {
+  border-radius: 4px;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.show-grid1 {
+  padding-bottom: 10px!important;
+}
+
+@media (max-width: 1000px) {
+  .show-grid1 {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .showGridDetailConfig {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1000px) {
+  .showGridDetailConfig > thumnailConfig {
+    width: 350px;
+  }
+}
+@media (max-width: 1000px) {
+  .showGridDetailConfig > detailProduct {
+    width: 420px;
+  }
+}
+@media (max-width: 450px) {
+  .showGridDetailConfig{
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .row-carousel-responsive{
+    display: block;
+  }
+}
+@media (max-width: 450px) {
+  .carousel-indicator{
+    display: none;
+  }
+}
+
+.freeShipping {
+  background-color: #be1e2d;
+  border-radius: 0;
+  font-size: .85em;
+  padding: 3px 9px;
+  right: .35em;
+  top: 1.5em;
+  z-index: 1;
+  color: #fff;
+  float: right;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+}
+
+.bgDetailConfigPrice {
+  flex-direction: row;
+  background-color: transparent;
+  padding-top: 0;
+}
+
+.bgDetailConfigPriceTop {
+  flex-direction: column;
+  background-color: transparent;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.priceDetail {
+  font-size: 1.7em;
+  margin: 0px 5px 0px 5px;
+  float: left;
+  font-weight: bold;
+  color: #259fea;
+}
+
+.price2 {
+  font-size: 0.9em;
+  margin: 10px 5px 0 4px;
+  float: left;
+  font-weight: bold;
+  color: #a1a1a1;
+  text-decoration: line-through;
+}
+
+.dividerPrice {
+  width: 0px;
+  height: 2px;
+  background-color: #be1e2d;
+  transition: all 0.5s ease;
+  position: absolute;
+  bottom: 5px;
+  margin-left: 5px;
+}
+
+.bgDetailConfigPrice .price {
+  color: #259fea;
+  font-size: 30px;
+}
+
+.thumnail1 {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border: 1px solid #ccc;
+}
+
+.thumnail1 > img {
+  padding: 9px;
+}
+
+.customize {
+  color: #fff;
+  background-color: #be1e2d;
+  margin-top: 4px;
+  border-radius: 2px;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 0;
+  text-align: center;
+  width: 45%;
+}
+
+.customize:hover {
+  background-color: #ffffff;
+  color: #be1e2d;
+  border-color: transparent;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 0px;
+  text-align: center;
+  width: 45%;
+}
+
+.bgPrice:hover .customize {
+  border-color: #be1e2d;
+}
+
+.divider {
+  background-color: black;
+  width: 100%;
+  height: 2px;
+  margin: auto;
+}
+
+.bgDetailConfigPriceBot {
+  position: absolute;
+  bottom: 4%;
+  right: 2%;
+}
+
+.btnDetailConfigPrice {
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  padding: 3% 5% 3% 5%;
+  background-color: #be1e2d;
+  color: #ffffff;
+  font-size: 15px;
+  position: absolute;
+  margin-left: 5px;
+  bottom: 20px;
+  right: 2%;
+}
+
+.btnDetailConfigPrice:hover {
+  background-color: #ffffff;
+  color: #be1e2d;
+}
+
+.btnDetailConfigPrice:after {
+  content: "CUSTOMIZE";
+}
+
+.asLowDetail {
+  font-size: 13px;
+  color: black;
+  margin: 0 4px 0 0;
+  font-weight: bold;
+}
+
+.learnMoreDetail {
+  color: #259fea;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 0 8px 0 0;
+  font-weight: bold;
+}
+
+.bgPrice:hover .asLow {
+  color: #a1a1a1;
+}
+
+.bgPrice:hover .learnMore {
+  color: #be1e2d;
+  font-weight: bold;
+}
+
+.configurator {
+  overflow: hidden;
+  padding: 0 5%;
+}
+
+.configurator .h2 {
+  color: #ddd;
+}
+
+.tabConfig {
+  color: #be1e2d;
+}
+
+.deskImg1 {
+  height: 81px;
+  width: 122px;
+  background: url("./../../images/HomePage/configurator.png") -5px -565px no-repeat;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+  .deskImg1 {
+    display: none;
+  }
+}
+
+.configHover1 {
+  font-weight: bold;
+  font-size: 16px !important;
+  line-height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+  width: 100%;
+}
+
+.configHover1:hover {
+  background-color: #259fea;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.configHover2 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+}
+
+.configHover2:hover {
+  background-color: #be1e2d;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.priceConfig1 {
+  color: #259fea;
+}
+
+.configHover1:hover .priceConfig1 {
+  color: #ffffff;
+}
+
+.priceConfig2 {
+  color: #be1e2d;
+}
+
+.configHover2:hover .priceConfig2 {
+  color: #ffffff;
+}
+
+.nav-tabs > li > a {
+  font-weight: bold;
+  color: black;
+}
+
+.nav-tabs > li > a:active {
+  background-color: #be1e2d;
+  color: #ffffff;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: #555;
+}
+
+.configurator .row {
+  padding: 0;
+  margin-left: 0;
+}
+
+.nameconfigurator {
+  padding-right: 0;
+}
+
+.borderConfigurator {
+  padding-right: 0;
+}
+
+.thumnailConfig {
+  padding-top: 50px;
+}
+
+.titleConfig {
+  line-height: 1.4;
+  font-size: 18px !important;
+  color: black;
+  font-weight: bold;
+}
+
+.bgStar {
+  justify-content: center;
+  flex-direction: row;
+}
+
+.detailNameConfig {
+  color: #259fea;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.detailProduct {
+  padding-left: 10px!important;
+  margin-right: 10px!important;
+  position: relative;
+}
+
+.showGridDetailConfig {
+  background-color: #ebebeb;
+  border-radius: 4px;
+  //display: none;
+}
+
+.showDetailConfigurator {
+  padding-right: 25px;
+}
+
+.configHover1:hover .showGridDetailConfig {
+  display: block;
+}
+
+.tabPaneConfig {
+  padding-right: 10px;
+}

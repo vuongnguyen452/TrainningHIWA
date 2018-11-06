@@ -1,0 +1,36 @@
+@media screen and (min-width: 1200px) {
+  .container-nextDaySystem {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container-nextDaySystem {
+    margin-top: 60px;
+  }
+}
+
+.container-nextDaySystem {
+  .bg-nds {
+    background-color: #000!important;
+    position: relative;
+    padding-top: 23%;
+    padding-bottom: 1%;
+    height: 100%;
+    background-size: 100%!important;
+    background: url("./../../images/OtherPage/NextDaySystem/Ships24_LP_013017.jpg") no-repeat;
+  }
+
+  .bg-content {
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .change-view {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+}

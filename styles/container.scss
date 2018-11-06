@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+body div {
+  font-size: 14px;
+}
+
+body p {
+  font-size: 14px;
+}
+
+.full-height {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.content {
+  font-family: "Arial", "Helvetica Neue", sans-serif;
+  margin-top: 90px;
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    margin-top: 60px;
+  }
+}

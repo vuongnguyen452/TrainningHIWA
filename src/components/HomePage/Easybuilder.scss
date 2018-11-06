@@ -1,0 +1,149 @@
+.container-easy-builder {
+  background-color: #333333;
+}
+
+.container-paper {
+  color: #c9c9c9;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-easy-builder {
+  .panel {
+    margin-top: 30px;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    box-shadow: 5px 5px 20px black;
+    font-size: 14px;
+    border-radius: 30px;
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+
+  }
+  .select-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #be1e2d;
+    padding: 2.5%;
+  }
+  .title1 {
+    font-size: 27px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .title2 {
+    font-weight: 500;
+    color: #fff;
+  }
+  .select-cpu {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+  }
+  .col-xs-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  .radio {
+    margin: 10px 0 0;
+    line-height: normal;
+  }
+  .select-title {
+    background-color: #be1e2d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%;
+  }
+  .description {
+    margin: 2% 5%;
+    color: #191919;
+  }
+  .col-md-6 {
+    padding: 0px 7%;
+  }
+  .ez {
+    height: 2px;
+    background-color: #c9c9c9;
+  }
+  .image-frame {
+    padding: 0 15%;
+  }
+  .input[type="checkbox"] {
+    margin: 10px 7px 0px;
+    line-height: normal;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .checkbox {
+    margin:10px 7px 0 ;
+  }
+
+  .input+label {
+    //background-image: url(/Images/EasyBuilder/check-1.png);
+    background-size: 1.2em;
+    background-repeat: no-repeat;
+    background-position-x: 15%;
+    background-position-y: 50%;
+    padding: 0.5em 1em .5em 4em;
+  }
+
+  .class-game {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 50px;
+    color: #000;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 24px;
+  }
+  .select-stream {
+    padding: 0 3%;
+    height: 150px;
+  }
+  .select-s
+  {
+    display: flex;
+    justify-content: center;
+    color: #be1e2d;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 24px;
+  }
+
+  .btn-next-button
+  {
+    min-width: 12vw;
+    min-height: 60px;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: #be1e2d;
+    color: #fff;
+    float: right;
+    background-image: none;
+    margin: -35px 30% 60px 0;
+    z-index: -1;
+    border: none;
+  }
+
+  .cpu-radio >input {
+    margin-right: 10px;
+  }
+}
+

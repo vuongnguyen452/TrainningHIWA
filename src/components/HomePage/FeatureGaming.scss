@@ -1,0 +1,80 @@
+.caption-gaming {
+  padding: 1% 1%;
+  color: #c9c9c9;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.caption-gaming a>h1 {
+  margin-left: 1vw;
+  color: #313737;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 24px;
+}
+
+.caption-gaming a {
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-gaming {
+  margin: 0 5px 5px 0;
+}
+
+.btn-view-gaming-laptop {
+  margin-top: 5px;
+  padding: 6px 24px;
+  background-color: #be1e2d;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  margin-bottom: 0;
+  touch-action: manipulation;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn-view-gaming-laptop:hover {
+  background-color: #fff;
+  color: #be1e2d;
+}
+
+.img-banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0 5% 10px 5%;
+  justify-content: space-around;
+}
+
+.img-banner .banner-Intel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img-banner .banner-AMD {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.img-banner-Intel {
+  width: 93%;
+}
+
+.img-banner-AMD {
+  width: 93%;
+}

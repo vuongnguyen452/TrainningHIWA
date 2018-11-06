@@ -1,0 +1,114 @@
+.finance {
+  @media (min-width: 768px){
+    .description{
+      width: 80%!important;
+    }
+  }
+  @media (min-width: 992px){
+    .description{
+      width: 100%!important;
+      max-width: 880px!important;
+    }
+    .block {
+      height: 720px!important;
+    }
+    .attachment {
+      background-attachment: fixed;
+    }
+  }
+  @media (min-width: 1200px){
+    .description{
+      max-width: 1100px!important;
+    }
+  }
+
+  @media (max-width: 900px){
+    iframe{
+      width: 600px !important;
+      height: 400px !important;
+    }
+  }
+  @media (max-width: 650px){
+    iframe{
+      width: 450px !important;
+      height: 280px !important;
+    }
+  }
+  @media (max-width: 500px){
+    iframe{
+      width: 350px !important;
+      height: 250px !important;
+    }
+  }
+  @media (max-width: 400px){
+    iframe{
+      width: 250px !important;
+      height: 150px !important;
+    }
+  }
+  .block {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 0;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .finance_img1 {
+    height: 880px;
+  }
+  .attachment {
+    padding-bottom: 20px;
+    background-attachment: fixed;
+  }
+  .description {
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    top: 15%;
+    width: 95%;
+    height: 415px;
+    //background: url(../../images/OtherPage/Finance/Finance_LP_4Step.png);
+  }
+  .block >.description > img{
+    width: 100%;
+    background-size: auto;
+  }
+  .description1 {
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    top: 15%;
+    width: 95%;
+    height: 375px;
+  }
+  .part3{
+    top: 45%;
+  }
+  .iframe_utube {
+    background-color: #333333;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 720px;
+  }
+  .iframe_utube > iframe{
+    margin-top: 100px;
+    width: 853px;
+    height: 480px;
+  }
+}
+//Close finance

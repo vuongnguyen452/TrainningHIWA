@@ -1,0 +1,155 @@
+.container-gear-store .container-fluid {
+  padding: 0;
+  overflow: hidden;
+}
+
+.container-gear-store .container {
+  padding: 0;
+}
+
+.img_logo{
+  height: 400px;
+  background-position: center;
+}
+.content_title {
+  padding: 30px 50px 100px 50px;
+  height: 50px;
+}
+.content_text{
+  float: right;
+  color: #111;
+}
+.content_title_text {
+  float: left;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.content_title_category {
+  float: right;
+}
+.content_title_category >ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.content_title_category >ul >li {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  height: auto;
+  margin-left: 0;
+  margin-right: 7px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  vertical-align: middle;
+  background-color: #111111;
+}
+
+.item_title_category{
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #111;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 30px;
+  text-align: center;
+  width: 30%;
+  margin-left: 10px;
+}
+
+.item_title_category:active{
+  background-color: #ddd;
+  border: #ddd 1px solid;
+  color: #000;
+}
+
+.container-gear-store {
+  .thumnail {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+
+  .thumnail .caption {
+    padding: 3px;
+  }
+
+  .thumnail > img {
+    padding: 9px;
+    height: 250px;
+  }
+
+  .bgPriceTop {
+    background-color: transparent;
+    height: 45px;
+    margin: 0;
+    position: relative;
+  }
+
+  .price {
+    font-size: 1.7em;
+    margin: 0 5px 0 5px;
+    float: right;
+    font-weight: bold;
+    color: #111111;
+  }
+
+  .price2 {
+    font-size: 0.9em;
+    margin: 10px 5px 0 4px;
+    float: right;
+    font-weight: bold;
+    color: #a1a1a1;
+    text-decoration: line-through;
+  }
+
+  .customize {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #be1e2d;
+    border-radius: 5px;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-align: center;
+    width: 45%;
+    margin-left: 20px;
+  }
+  .caption{
+    margin-bottom: 20px;
+  }
+  .content_product{
+    margin: 0;
+  }
+  .content_product_name{
+    text-align: center;
+  }
+  .Pagination{
+    text-align: center;
+  }
+  .bgActive {
+    text-align: center;
+    border: #ddd 1px solid;
+    background-color: #ddd;
+    color: #000;
+  }
+}
+

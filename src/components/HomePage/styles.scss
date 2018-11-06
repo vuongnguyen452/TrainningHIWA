@@ -1,0 +1,59 @@
+.container-slider {
+    margin-top: 90px !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-slider {
+        margin-top: 60px !important;
+    }
+}
+
+.container-banner-slider {
+    .carousel-cell {
+        width: 100%; /* full width */
+    }
+    .flickity-bg-lazyloaded {
+        background-position: center;
+        height: 300px;
+    }
+    .carousel > ol > li {
+        width: 27px;
+        height: 6px;
+        border-radius: 0;
+        background-color: #524949;
+        border: none;
+        margin: 0 4px;
+    }
+
+    .flickity-page-dots .is-selected {
+        background-color: #be1e2d!important;
+    }
+
+    .flickity-bg-lazyloaded {
+        height: 200px;
+        background-position: center;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .flickity-page-dots {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .flickity-bg-lazyloaded {
+            height: 396px;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+        .flickity-bg-lazyloaded {
+            height: 300px;
+        }
+    }
+    @media screen and (min-width: 400px) and (max-width: 768px) {
+        .flickity-bg-lazyloaded{
+            height: 200px;
+            background-size: cover;
+        }
+    }
+}

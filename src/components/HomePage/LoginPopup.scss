@@ -1,0 +1,90 @@
+.container-fluid-loginPopup {
+  font-size: 14px;
+  background-color: #3a3d3f;
+  padding-bottom: 70px;
+  border-radius: 6px;
+}
+
+.container-fluid-loginPopup {
+
+  .form-inline >button[disabled]:hover {
+    cursor: not-allowed;
+    opacity: .65;
+    box-shadow: none;
+  }
+
+  .title {
+    font-size: 30px;
+    padding-top: 14px;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .col-xs-12 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .ng-binding {
+    color: #d2d2d2;
+    font-family: Arial, sans-serif;
+  }
+
+  .form-inline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .btn-submit {
+    background-color: #be1e2d;
+    color: #cccccc;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+  }
+
+  .label_ {
+    margin-top: 4px;
+    margin-left: 15px;
+  }
+
+  .label_ >input {
+    margin: 0 4px 0 0;
+  }
+
+  .customer-option {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .customer-option >label{
+    color: #ffffff;
+  }
+
+  .customer-option >label>input{
+    margin: 4px 4px 0 0;
+  }
+
+  .close-popup {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #c9c9c9;
+    cursor: pointer
+  }
+}
